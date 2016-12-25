@@ -25,7 +25,14 @@ current_path = File.dirname(__FILE__)
 file_name = current_path + "/my_expenses.xml"
 
 file = File.new(file_name, "r:UTF-8")
+
+begin
 doc = REXML::Document.new(file)
+rescue REXML::ParseException => e
+  puts "XML файл поврежден"
+  abort e.message
+end
+
 file.close
 
 expenses = doc.elements.find('expenses').first
