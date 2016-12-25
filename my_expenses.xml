@@ -1,20 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version='1.0' encoding='UTF-8'?> 
 <expenses>
-  <expense date="10.10.2016" category="Образование" amount="1000">
-    Курсы по программированию
+  <expense date='10.10.2016' category='Образование' amount='1000'>
+     Курсы по программированию 
   </expense>
-
-  <expense date="12.11.2016" category="Развлечения" amount="250">
-    Кинотеатр
+  <expense date='12.11.2016' category='Развлечения' amount='250'>
+     Кинотеатр 
   </expense>
-
-  <expense date="15.12.2016" category="Продукты" amount="500">
-    Продукты в АТБ
+  <expense date='15.12.2016' category='Продукты' amount='500'>
+     Продукты в АТБ 
   </expense>
-
-  <expense date="18.12.2016" category="Развлечения" amount="100">
-    Каток
+  <expense date='18.12.2016' category='Развлечения' amount='100'>
+     Каток 
   </expense>
-  
+  <expense amount='240' category='Образование' date='2016-12-25'>
+     Книга про Ruby 
+  </expense>
+  <expense date='2016-12-25' amount='1450' category='Образование'>
+     Курсы Java 
+  </expense>
+  <expense date='2016-12-25' category='Питание' amount='180'>
+    Ресторан
+  </expense>
 </expenses>
